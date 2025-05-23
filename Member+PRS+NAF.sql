@@ -373,7 +373,7 @@ left join #Team_Structure ts on sf.Account_Executive_Quota__c = ts.ActMgr_Fullna
 
 --select * from #Member_Summary where Group_Sub_Type_Cd in ('EEMG')
 
-select * from #Member_Summary where Top_Parent_ID in ('3737427') 
+select * from #Member_Summary where Top_Parent_ID in ('3413482') 
 
 --select Quota_Div_ID,sum(rev_24_prs) from #Member_Summary group by Quota_Div_ID --where Group_Sub_Type_Cd in ('EEMG')
 
